@@ -56,3 +56,6 @@ public class App{
         }
         StringBuilder holder2 = new StringBuilder();
         int WordLength2 = word.length();
+
+        for (int i = 0; i < WordLength2; i++) {
+            char ch = word.charAt(i);
