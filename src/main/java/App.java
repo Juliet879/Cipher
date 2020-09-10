@@ -59,3 +59,12 @@ public class App{
 
         for (int i = 0; i < WordLength2; i++) {
             char ch = word.charAt(i);
+
+            if (Character.isLetter(ch)) {
+                if (Character.isLowerCase(ch)) {
+                    char shiftedWord2 = (char) (ch - shift);
+                    if (shiftedWord2 < 'a') {
+                        holder2.append((char) (ch + (26 + shift)));
+                    } else {
+                        holder2.append(shiftedWord2);
+                    }
