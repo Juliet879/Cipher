@@ -39,5 +39,8 @@ public class App{
                     } else {
                         holder.append(shiftedWord);
                     }
+                } else {
+                    holder.append(ch);
+                }
                     }
         }
