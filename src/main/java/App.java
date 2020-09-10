@@ -68,3 +68,10 @@ public class App{
                     } else {
                         holder2.append(shiftedWord2);
                     }
+                } else if (Character.isUpperCase(ch)) {
+                    char shiftedWord2 = (char) (ch - shift);
+                    if (shiftedWord2 < 'A') {
+                        holder2.append((char) (ch + (26 + shift)));
+                    } else {
+                        holder2.append(shiftedWord2);
+                    }
