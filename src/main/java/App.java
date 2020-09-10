@@ -31,4 +31,8 @@ public class App{
                     } else {
                         holder.append(shiftedWord);
                     }
+
+                } else if (Character.isUpperCase(ch)) {
+                    char shiftedWord = (char) (ch + shift);
+                    if (shiftedWord > 'Z') {
         }
