@@ -17,5 +17,6 @@ public class App{
             shift = shift % 26;
         } else if (shift < 0) {
             shift = (shift % 26) + 26;
-        }
+        } StringBuilder holder = new StringBuilder();
+        int WordLength = word.length();
         }
