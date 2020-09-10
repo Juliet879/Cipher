@@ -26,4 +26,9 @@ public class App{
             if (Character.isLetter(ch)) {
                 if (Character.isLowerCase(ch)) {
                     char shiftedWord = (char) (ch + shift);
+                    if (shiftedWord > 'z') {
+                        holder.append((char) (ch - (26 - shift)));
+                    } else {
+                        holder.append(shiftedWord);
+                    }
         }
