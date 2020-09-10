@@ -42,5 +42,6 @@ public class App{
                 } else {
                     holder.append(ch);
                 }
-                    }
+            }
         }
+        return holder;
