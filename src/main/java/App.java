@@ -23,4 +23,7 @@ public class App{
         for (int index = 0; index < WordLength; index++) {
             char ch = word.charAt(index);
 
+            if (Character.isLetter(ch)) {
+                if (Character.isLowerCase(ch)) {
+                    char shiftedWord = (char) (ch + shift);
         }
