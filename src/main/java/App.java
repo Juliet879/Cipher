@@ -75,3 +75,10 @@ public class App{
                     } else {
                         holder2.append(shiftedWord2);
                     }
+                } else {
+                    holder2.append(ch);
+                }
+
+            }
+            ;
+        }
