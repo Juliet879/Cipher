@@ -17,8 +17,6 @@ A Caesar cipher is a type of substitution in which each letter is shifted a cert
 - If you have git Use this command `git clone *` to clone the project.
 - Run ng serve from your terminal
 
-## Live Demo
-To view the page click on the link below
 
 ## Technologies Used
 - Angular CLI
